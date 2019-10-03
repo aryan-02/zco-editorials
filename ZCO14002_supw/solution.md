@@ -37,3 +37,10 @@ Otherwise (when ```days``` is 2), we don't have a choice, so we'll have to work 
 else:
   return solve(idx + 1, 0) + minutes[i]
 ```
+### Memoize
+Store the return value of the ```solve()``` function in a memo table (perhaps an array or a vector in this case) and use it directly if already computed.
+
+### Endnote
+Exercise: Argue why the base cases described above can be generalized to the following base case without affecting the recurrence:
+
+```solve(N, 0) = solve(N, 1) = solve(N, 2) = 0```
