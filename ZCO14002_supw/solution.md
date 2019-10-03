@@ -1,6 +1,8 @@
 # SUPW
 Category: Dynamic Programming
 
+Code: [submission.cpp](submission.cpp)
+
 Problem link: https://www.codechef.com/ZCOPRAC/problems/ZCO14002
 
 ## Solution
