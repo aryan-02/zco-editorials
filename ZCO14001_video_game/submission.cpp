@@ -16,7 +16,7 @@ int main()
 	bool picked{};
 	while (true)
 	{
-		int ins{};
+		int ins{}; // Instruction code
 		cin >> ins;
 		if(ins == 0)
 		{
@@ -54,7 +54,7 @@ int main()
 			}
 		}
 	}
-	for(int& i : boxes)
+	for(const int& i : boxes)
 	{
 		cout << i << ' ';
 	}
